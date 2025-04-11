@@ -34,3 +34,11 @@ if cadena[-1:].lower()in vocales:
     print(f"[cadena]!")
 else:
     print(f" cadena")
+
+#8) Escribir un programa que solicite al usuario que ingrese su nombre y el numero 1, 2 o 3 dependiendo de la opción que desee:
+# *1) Si quiere su nombre en mayuscula.
+# *2) Si quiere su nombre en minuscula.
+# *3) Si quiere su nombre con la primera letra mayuscula.
+# El programa debe transformar el nombre ingresado de acuerdo a la opción seleccionada por el usuario e imprimir el resultado por pantalla.
+
+nombre = str(input)
