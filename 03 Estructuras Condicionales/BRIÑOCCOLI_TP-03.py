@@ -44,3 +44,13 @@ elif edad >= 18 and edad < 30:
     print(" Adulto/a Joven: ")
 elif edad >= 30:
     print(" Adulto ")
+
+#5) Escribir un programa que permita introducir contraseñas de entre 8 y 14 caracteres
+# (incluyendo 8 y 14). Si el usuario ingresa una contraseña de longitud adecuada, imprimir por pantalla el mensaje "Has ingresado una contraseña correcta";
+# en caso contrario, imprimir por pantalla "Por favor ingrese una contraseña de entre 8 y 14 caracteres".
+
+password = str(input(" Ingresa una contraseña entre 8 y 14 caracteres:"))
+if len(password) > 8 and len(password) < 14:
+    print(" PERFECTO!! Has ingresado una contraseña correcta ") 
+else:
+    print(" UPPS!! Contraseña Incorrecta, Por favor, ingrese una contraseña entre 8 y 14 caracteres")
