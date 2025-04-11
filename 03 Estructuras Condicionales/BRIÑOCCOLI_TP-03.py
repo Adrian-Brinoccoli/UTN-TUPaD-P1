@@ -1,4 +1,5 @@
-#1) Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 años, deberá mostrar un mensaje en pantalla que diga " Es mayor de Edad "
+#1) Escribir un programa que solicite la edad del usuario. Si el usuario es mayor de 18 años, 
+# deberá mostrar un mensaje en pantalla que diga " Es mayor de Edad "
 
 edad = int(input(" Ingresa tu edad: "))
 
@@ -27,3 +28,19 @@ if num % 2 == 0:
 else:
     print(" Incorrecto, Por favor ingresa un numero par:")
 
+#4) Escribir un programa que solicite al usuario su edad e imprima por pantalla a cual de las siguientes categorias pertenece:
+# Niño/a: menor a 12 años
+# Adolescente: mayor o igual que 12 años y menor que 18 años.
+# Adulto/ a joven: mayor o igual que 18 años y menor que 30 años.
+# Adulto/a: mayor o igual que 30 años
+
+edad = int(input(" Ingresa tu edad:"))
+
+if edad <12:
+    print(" Niño/a")
+elif edad >= 12 and edad < 18:
+    print(" Adolescente ")
+elif edad >= 18 and edad < 30:
+    print(" Adulto/a Joven: ")
+elif edad >= 30:
+    print(" Adulto ")
