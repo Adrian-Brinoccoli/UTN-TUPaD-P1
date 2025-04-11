@@ -5,6 +5,7 @@
 ## ✨ Estudiante  
 - **Nombre:** Briñoccoli, Adrian Nahuel
 - **Comisión:** M2025-6
+- **Matricula:** 100001
 
 ## 📂 Descripción del Repositorio  
 Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  
