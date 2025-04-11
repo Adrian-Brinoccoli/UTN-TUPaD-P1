@@ -41,4 +41,16 @@ else:
 # *3) Si quiere su nombre con la primera letra mayuscula.
 # El programa debe transformar el nombre ingresado de acuerdo a la opción seleccionada por el usuario e imprimir el resultado por pantalla.
 
-nombre = str(input)
+nombre = str(input(" Ingrese por favor su nombre "))
+opc = int(input('''Como quieres que escriba tu nombre? 
+                1. Si quiere su nombre en mayúsculas. Por ejemplo: PEDRO.
+                2. Si quiere su nombre en minúsculas. Por ejemplo: pedro.
+                3. Si quiere su nombre con la primera letra mayúscula. Por ejemplo: Pedro.'''))
+
+if opc == 1:
+    print(f' Hola {nombre.upper()}!')
+elif opc == 2:
+    print(f'hola {nombre.lower()}!')
+elif opc == 3:
+    print(f'Hola {nombre.title()}!')
+
