@@ -54,3 +54,21 @@ elif opc == 2:
 elif opc == 3:
     print(f'Hola {nombre.title()}!')
 
+#9) Escribir un Programa que pida al usuario la magnitud de un terremoto, clasifique la magnitud en una de las siguientes categorias segun la escala de
+# Richter e imprima el resultado por pantalla:
+
+magnitud = float(input("Ingresa la magnitud del terremoto: "))
+
+if magnitud < 3.0:
+    print("Muy leve (imperceptible)")
+elif magnitud >= 3.0 and magnitud < 4:
+    print("Leve (ligeramente perceptible)")
+elif magnitud >= 4 and magnitud < 5:
+    print("Moderado (sentido por personas, pero generalmente no causa daños)")
+elif magnitud >= 5 and magnitud < 6:
+    print("Fuerte (puede causar daños en estructuras débiles).")
+elif magnitud >= 6 and magnitud < 7:
+    print("Muy Fuerte (puede causar daños significativos).")
+elif magnitud >= 7:
+    print("Extremo (puede causar graves daños a gran escala).")
+
