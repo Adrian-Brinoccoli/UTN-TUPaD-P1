@@ -69,3 +69,66 @@ for i in range(0, numero +1):
      suma += i
 
 print(f" La suma total es de {suma} ")
+
+#8) Escribe un programa que permita al usuario ingresar 100 numeros enteros. Luego, el programa debe indicar cuantos de estos numeros son pares, cuantos
+# son impares, cuantos son negativos y cuantos son positivos.
+
+CANTIDAD = 5
+contador = 0
+pares = 0
+impares = 0
+positivos = 0
+negativos = 0
+
+while contador < CANTIDAD:
+    numero = int(input(f"Ingrésá el número {contador + 1}: "))
+    
+    # Par o impar
+    if numero % 2 == 0:
+        pares += 1
+    else:
+        impares += 1
+
+    # Positivo o negativo
+    if numero > 0:
+        positivos += 1
+    elif numero < 0:
+        negativos += 1
+
+    contador += 1
+
+# Resultados
+print("\n--- Resultados ---")
+print("Pares:", pares)
+print("Impares:", impares)
+print("Positivos:", positivos)
+print("Negativos:", negativos)
+
+#9) Elabora un programa que permita al usuario ingresar 100 numeros enteros y luego calcules la media de esos valores.
+
+CANTIDAD = 5  
+contador = 0
+suma = 0
+
+while contador < CANTIDAD:
+    numero = int(input(f"Ingrese el número {contador + 1}: "))
+    suma += numero
+    contador += 1
+
+media = suma / CANTIDAD
+
+print("\n--- Resultado ---")
+print("La media de los números ingresados es:", media)
+
+#10) Escribe un programa que invierta el orden de los digitos de un numero ingresado por el usuario. Ejemplo: si el usuario ingresa 547,
+# el programa debe mostrar 745.
+
+numero = int(input("Ingrese un número entero: "))
+numero_invertido = 0
+
+while numero != 0:
+    digito = numero % 10 
+    numero_invertido = numero_invertido * 10 + digito  
+    numero = numero // 10 
+
+print("Número invertido:", numero_invertido)
