@@ -5,7 +5,7 @@
 ## ✨ Estudiante  
 - **Nombre:** BRIÑOCCOLI, Adrian Nahuel
 - **Matricula:** 100001
-- **Comisión:** M2025-6
+- **Facultad Regional:** Villa Maria
 
 ## 📂 Descripción del Repositorio  
 Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  

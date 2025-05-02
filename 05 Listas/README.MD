@@ -6,6 +6,7 @@
 - **Nombre:** BRIÑOCCOLI, Adrian Nahuel
 - **Matricula:** 100001
 - **Comisión:** M2025-6
+**Facultad Regional:** Villa Maria
 
 ## 📂 Descripción de la carpeta
 
