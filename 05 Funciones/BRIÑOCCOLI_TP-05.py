@@ -36,10 +36,14 @@ print(numeros)
 #En la primera linea se crea una lista con el nombre "numeros" y este tiene los numeros 8, 15, 3, 22 y 7, es la segunda linea.
 #se utiliza la funcion "remove" para eliminar el numero mas grande que tenemos en la lista, que es el 22. Y por ultimo se imprime la lista sin el 22.
 
-#6) Reemplazar lso dos valores centrales (indices 1 y 2) de la lista "autos" por dos nuevos valores cualesquiers.
+#6) Crear una lista con numeros del 10 al 30 (incluido), haciendo saltos de 5 en 5 y mostrar por pantalla los dos primeros.
+
+mi_lista = list(range(10, 31, 5))
+print(mi_lista[:2])
+
+#7) Reemplazar los dos valores centrales (indices 1 y 2) de la lista "autos" por dos nuevos valores cualesquiers.
 
 autos =["sedan", "polo", "suran", "gol"]
 autos[1] = "peugeot" 
 autos[2] = "chevrolet_onix" 
 print(autos)
-
