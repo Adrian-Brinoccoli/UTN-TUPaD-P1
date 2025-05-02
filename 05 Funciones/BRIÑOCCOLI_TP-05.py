@@ -39,6 +39,7 @@ print(numeros)
 #6) Reemplazar lso dos valores centrales (indices 1 y 2) de la lista "autos" por dos nuevos valores cualesquiers.
 
 autos =["sedan", "polo", "suran", "gol"]
-autos[1] = "peugeot" #reemplaza el segundo elemento (indice 1) con "fiesta"
-autos[2] = "chevrolet_onix" #reemplaza el tercer elemento (indice 2) con "camioneta"
+autos[1] = "peugeot" 
+autos[2] = "chevrolet_onix" 
 print(autos)
+
