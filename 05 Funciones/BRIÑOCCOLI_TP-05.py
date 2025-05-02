@@ -19,3 +19,11 @@ mi_lista.append("Como estás")
 mi_lista.append("Que tengas un buen día")
 
 print(mi_lista)
+
+#4) Reemplazar el segundo y ultimo valor de las lista "animales" con las palabras "loro" y "oso", respectivamente. Imprimir la lista por pantalla.
+
+animales = ["perro", "gato", "elefante", "jirafa", "tigre"]
+animales[1] = "loro" #reemplaza el segundo elemento (indice 1) con "loro"
+animales[-1] = "oso" #reemplaza el ultimo elemento (indice -1) con "oso"
+print(animales)
+
