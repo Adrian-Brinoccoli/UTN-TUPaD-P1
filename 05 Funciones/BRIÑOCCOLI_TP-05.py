@@ -47,3 +47,25 @@ autos =["sedan", "polo", "suran", "gol"]
 autos[1] = "peugeot" 
 autos[2] = "chevrolet_onix" 
 print(autos)
+
+#8) Crear una lista vacia llamada "dobles" y agregar el doble de 5, 10 y 15 usando append directamente. Imprimir la lista por pantalla.
+dobles = []
+dobles.append(5*2)
+dobles.append(10*2)
+dobles.append(15*2)
+print(dobles)
+
+#9) Dada la lista "compras", cuyo elementos representan los productos comprados por diferentes clientes:
+compras = [["pan", "leche"], ["arroz", "fideos", "salsa" ], ["agua" ]]
+#a) Agregar "jugo" a la lista del tercer cliente usando append.
+#b) Reemplazar "fideos" por "tallarines" en la lista del segundo cliente.
+#c) Eliminar "pan" de la lista del primer cliente.
+#d) Imprimir la lista resultante por pantalla.
+
+compras[2].append("jugo") # Agregar "jugo" a la lista del tercer cliente
+indice_fideos = compras[1].index("fideos") # Obtener el índice de "fideos" en la lista del segundo cliente
+compras[1][indice_fideos] = "tallarines" # Reemplazar "fideos" por "tallarines"
+
+compras[0].remove("pan") # Eliminar "pan" de la lista del primer cliente
+
+print(compras)
