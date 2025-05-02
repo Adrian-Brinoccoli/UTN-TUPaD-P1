@@ -27,3 +27,18 @@ animales[1] = "loro" #reemplaza el segundo elemento (indice 1) con "loro"
 animales[-1] = "oso" #reemplaza el ultimo elemento (indice -1) con "oso"
 print(animales)
 
+#5) Analiza el siguiente programa y explica con tus palabras que es lo que realiza.
+
+numeros = [8, 15, 3, 22, 7]
+numeros.remove(max(numeros))
+print(numeros) 
+
+#En la primera linea se crea una lista con el nombre "numeros" y este tiene los numeros 8, 15, 3, 22 y 7, es la segunda linea.
+#se utiliza la funcion "remove" para eliminar el numero mas grande que tenemos en la lista, que es el 22. Y por ultimo se imprime la lista sin el 22.
+
+#6) Reemplazar lso dos valores centrales (indices 1 y 2) de la lista "autos" por dos nuevos valores cualesquiers.
+
+autos =["sedan", "polo", "suran", "gol"]
+autos[1] = "peugeot" #reemplaza el segundo elemento (indice 1) con "fiesta"
+autos[2] = "chevrolet_onix" #reemplaza el tercer elemento (indice 2) con "camioneta"
+print(autos)
