@@ -9,4 +9,4 @@
 
 ## 📂 Descripción de la carpeta
 
-En el siguiente Trabajo Practico se encuentran 5 ejercicios para comprender y aplicar las estructuras condicionales en la programacion.
+En el siguiente Trabajo Practico se encuentran 10 ejercicios para comprender y aplicar las estructuras condicionales en la programacion.
