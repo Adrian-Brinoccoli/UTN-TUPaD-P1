@@ -1,17 +1,22 @@
 #1) Crear una funcion llamada imprimir_hola_mundo que imprima por pantalla el mensaje: "Hola Mundo".
+
 def imprimir_hola_mundo():
     print("Hola Mundo")
+
 # Llamada a la funcion desde el programa principal
+
 if __name__ == "__main__":
     imprimir_hola_mundo()
 
 #2) Crea una funcion llamada saludar_usuario(nombre) que reciba como parametro un nombre y devuelva un saludo personalizado.
 # Por ejemplo si se llama con saludar_usuario("Marcos") debera devolver "Hola Marcos". LLamar a esta funcion desde el programa principal
 # solicitando el nombre al usuario.
+
 def saludar_usuario(nombre):
     return f"Hola {nombre}"
 
 # Llamada a la funcion desde el programa principal
+
 if __name__ == "__main__":
     nombre = input("Ingrese su nombre: ")
     saludo = saludar_usuario(nombre)
@@ -19,9 +24,12 @@ if __name__ == "__main__":
 
 #3) Crear una funcion llamada informacion_personal (nombre, apellido, edad, residencia) que reciba cuatro parametros e imprima: "Soy [nombre][apellido],
 # tengo [edad] años y vivo en [residencia]". Pedir los datos al usuario y llamar a esta funcion con los valores ingresados.
+
 def informacion_personal(nombre, apellido, edad, residencia):
     print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}.")
+
 # Llamada a la funcion desde el programa principal
+
 if __name__ == "__main__":
     nombre = input("Ingrese su nombre: ")
     apellido = input("Ingrese su apellido: ")
@@ -58,6 +66,7 @@ def segundos_a_horas(segundos):
     return f"{horas} horas, {minutos} minutos y {segundos_restantes} segundos"
 
 # Programa Principal-
+
 if __name__ == "__main__":
     segundos = int(input("Ingrese la cantidad de segundos: "))
     resultado = segundos_a_horas(segundos)
@@ -65,17 +74,20 @@ if __name__ == "__main__":
 
 #6) Crear una funcion llamada tabla_multiplicar(numero) que reciba un numero como parametro y imprima la tabla de multiplicar de ese numero del 1 al 10.
 # Pedir al usuario el numero y llamar a la funcion.
+
 def tabla_multiplicar(numero):
     for i in range(1, 11):
         print(f"{numero} x {i} = {numero * i}") 
 
 # Programa Principal
+
 if __name__ == "__main__":
     numero = int(input("Ingrese un numero para ver su tabla de multiplicar: "))
     tabla_multiplicar(numero)
 
 #7) Crear una funcion llamda operaciones_basicas(a,b) que reciba dos numeros como parametros y devuelva una tupla con los resultados de sumarlos, restarlos, multiplicarlos.
 # y dividirlos. Mostrar los resultados de forma clara.
+
 def operaciones_basicas(a, b):
     suma = a + b
     resta = a - b
@@ -96,6 +108,7 @@ if __name__ == "__main__":
 
 #8) Craer una funcion llamada calcular_imc(peso, altura) que reciba el peso en kilogramos y la altura en metros, y devuelva el indice de masa corporal
 # (IMC). Solicita al usuario los datos y llamar a la funcion para mostrar el resultado con dos decimales.
+
 def calcular_imc(peso, altura):
     if altura <= 0:
         return "Error: La altura debe ser mayor que cero."
