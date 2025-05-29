@@ -16,3 +16,16 @@ if __name__ == "__main__":
     nombre = input("Ingrese su nombre: ")
     saludo = saludar_usuario(nombre)
     print(saludo)
+
+#3) Crear una funcion llamada informacion_personal (nombre, apellido, edad, residencia) que reciba cuatro parametros e imprima: "Soy [nombre][apellido],
+# tengo [edad] años y vivo en [residencia]". Pedir los datos al usuario y llamar a esta funcion con los valores ingresados.
+def informacion_personal(nombre, apellido, edad, residencia):
+    print(f"Soy {nombre} {apellido}, tengo {edad} años y vivo en {residencia}.")
+# Llamada a la funcion desde el programa principal
+if __name__ == "__main__":
+    nombre = input("Ingrese su nombre: ")
+    apellido = input("Ingrese su apellido: ")
+    edad = input("Ingrese su edad: ")
+    residencia = input("Ingrese su residencia: ")
+    informacion_personal(nombre, apellido, edad, residencia)
+
